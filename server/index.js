@@ -14,10 +14,10 @@ import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://three-interviewiq-frontend-zupd.onrender.com"
-  ],
+    origin: [
+      "https://ai-mern-interview-1.onrender.com",
+      "http://localhost:5173"
+    ],
   credentials: true
 }));
 app.use(express.json())
